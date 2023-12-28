@@ -1,0 +1,159 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-size: 17px;
+            font-style: "微软雅黑";
+            background: #fff;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .list-title {
+            padding: 11px 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .list-title h3 {
+            line-height: 1;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 20px;
+            font-weight: 400;
+            max-width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .list-title p {
+            font-size: 14px;
+            margin-top: 0;
+            color: #8f8f94;
+        }
+
+        table {
+            position: relative;
+            border-top: 1px solid #cbcbd8;
+            border-collapse: collapse;
+        }
+        .list-cnt table tr td {
+            border-bottom: solid 1px #cbcbd8;
+
+        }
+
+        /*.list-cnt table:after {*/
+        /*    content: '';*/
+        /*    left: 0;*/
+        /*    bottom: 0;*/
+        /*    right: 0;*/
+        /*    position: absolute;*/
+        /*    height: 1px;*/
+        /*    background: #eee;*/
+        /*}*/
+
+         tr {
+            position: relative;
+            padding: 11px 15px;
+            overflow: hidden;
+            border-bottom: 1px solid #cbcbd8;
+        }
+
+        .list-cnt td.info  {
+            color: #999;
+        }
+
+        /*.list-cnt tr:after {*/
+        /*    content: '';*/
+        /*    left: 15px;*/
+        /*    bottom: 0;*/
+        /*    right: 0;*/
+        /*    position: absolute;*/
+        /*    height: 1px;*/
+        /*    background: #eee;*/
+        /*}*/
+
+        /*.list-cnt td  {*/
+        /*    float: right;*/
+        /*    color: #333;*/
+        /*    text-align: right;*/
+        /*    max-width: 70%;*/
+        /*    overflow: hidden;*/
+        /*    white-space: nowrap;*/
+        /*    text-overflow: ellipsis;*/
+        /*}*/
+        /*button{background-color: #71a7ff;height:30px;color: white;border: 0;font-size: 14px;width: 50px;}*/
+    </style>
+</head>
+
+<body>
+<div  style="font-size:20px;font-weight:blod;height:80px;line-height:80px;background:#000000;color:#ffffff;">
+    <h3 style="padding-left:80px">电子证照查验中心</h3>
+</div>
+<div class="list-title">
+    <h3>建设工程施工许可证</h3>
+    <p>邯郸市行政审批局</p>
+</div>
+<div class="list-cnt">
+    <table  align="center">
+        <tr height="50px" align="left">
+            <td width="170" class="info" >证照类型标识</td>
+            <td>11100000000013338W009</td>
+        </tr>
+        <tr align="left" height="50px">
+            <td width="170" class="info">发证机关代码</td>
+            <td>11130429MB1219178K</td>
+        </tr>
+        <tr align="left" height="50px">
+            <td width="170" class="info">证照标识</td>
+            <td  style="word-wrap:break-word;word-break:break-all;">1.2.156.3005.2.11100000000013338W009.11130429MB1219178K.2023031004.002.O</td>
+<!--            <td style="word-wrap:break-word;word-break:break-all;">1.2.156.3005.2.11100000000013338W009.11130400787042465Q.2022111702.099.4</td>-->
+        </tr>
+        <tr align="left" height="50px">
+            <td width="170" class="info">施工许可证编号</td>
+            <td>130408202303100303</td>
+        </tr>
+        <tr align="left" height="50px">
+            <td width="170" class="info">工程名称</td>
+            <td>河北永洋特钢集团有限公司产业重组退城搬迁装备升级项目</td>
+        </tr>
+        <tr align="left" height="50px">
+            <td width="170" class="info">建设单位</td>
+            <td>河北永洋特钢集团有限公司</td>
+        </tr>
+        <tr align="left" height="50px">
+            <td width="170" class="info">工程项目编号</td>
+            <td>2203-130494-89-01-984061</td>
+        </tr>
+        <tr align="left" height="50px">
+            <td width="170" class="info">建设单位代码</td>
+            <td>91130408601162718A</td>
+        </tr>
+        <tr align="left" height="50px">
+            <td width="170" class="info">备注</td>
+            <td></td>
+        </tr>
+    </table>
+
+</div>
+</body>
+<script>
+    function download() {
+        window.location.href = "http://10.6.90.73:8050/license-api-release/m/v4/license/file?licenseId=62e25ec6cccbbf351949d0e4&9da4d2e8728346e2ad1c096f33114219";
+    }
+</script>
+
+</html>
